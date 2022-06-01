@@ -16,11 +16,12 @@ export default props => {
 
     return (
         <div>
-            <span>{nome}</span>
-            <span><strong>{idade}</strong></span>
-            <span>{nerd:'Verdadeiro' : 'Falso'}</span>
-
-            <div>Pai</div>
+            <div>
+                <span>{nome}</span>
+                <span><strong>{idade}</strong></span>
+                <span>{nerd ? 'Verdadeiro' : 'Falso'}</span>
+            </div>
+            
             <IndiretaFilho quandoClicar={fornecerInformacoes}></IndiretaFilho>
         </div>
     )

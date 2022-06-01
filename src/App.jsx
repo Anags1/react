@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import Card from "./components/layout/Card";
 
-import Input from "./components/formulario/Input";
+import Input from "./components/formulario/Input.jsx";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import DiretaPai from "./components/comunicacao/DiretaPai"
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
