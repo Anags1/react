@@ -1,4 +1,4 @@
-import '.Input.css';
+import './Input.css';
 import React, { useState } from 'react';
 
 export default props => {
@@ -8,6 +8,7 @@ export default props => {
     function quandoMudar(e) {
         setValor(e.target.value)
     }
+
     return (
         <div className="Input">
             <h2>{valor}</h2>
