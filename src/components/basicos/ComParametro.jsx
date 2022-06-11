@@ -14,5 +14,5 @@ export default function ComParametro(props) {
                 <strong>{ status }</strong>.
             </p>
         </div>
-    )
-}
+    );
+};

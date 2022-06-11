@@ -9,10 +9,10 @@ export default props => {
 
     function fornecerInformacoes(nome, idade, nerd) {
         //console.log(nome, idade, nerd);
-        setNome(nome);
-        setIdade(idade);
-        setNerd(nerd);
-    }
+        setNome(nome)
+        setIdade(idade)
+        setNerd(nerd)
+    };
 
     return (
         <div>
@@ -24,5 +24,5 @@ export default props => {
             
             <IndiretaFilho quandoClicar={fornecerInformacoes}></IndiretaFilho>
         </div>
-    )
-}
+    );
+};
